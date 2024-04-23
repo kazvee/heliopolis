@@ -23,6 +23,23 @@ k.scene('main', async () => {
   const layers = mapData.layers;
 
   const map = k.add([k.sprite('map'), k.pos(0), k.scale(scaleFactor)]);
+
+  const player = k.add([
+    k.sprite('spritesheet', { anim: 'idle-down' }),
+    k.area({
+      shape: new k.Rect(k.vec2(0, 3), 10, 10),
+    }),
+    k.body(),
+    k.anchor('center'),
+    k.pos(),
+    k.scale(scaleFactor),
+    {
+      speed: 250,
+      direction: 'down',
+      isInDialogue: false,
+    },
+    'player',
+  ]);
 });
 
 k.go('main');
