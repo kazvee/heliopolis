@@ -12,3 +12,5 @@ k.loadSprite('spritesheet', './spritesheet.png', {
     'walk-up': { from: 1034, to: 1037, loop: true, speed: 8 },
   },
 });
+
+k.setBackground(k.Color.fromHex('#222222'));
