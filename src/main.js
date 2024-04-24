@@ -83,7 +83,10 @@ k.scene('main', async () => {
     k.camPos(player.worldPos().x, player.worldPos().y - 100);
   });
 
-  k.onMouseDown(() => {
+  k.onMouseDown((mouseBtn) => {
+    if (mouseBtn !== 'left' || player.isInDialogue) {
+      return;
+    }
     const worldMousePos = k.toWorld(k.mousePos());
     player.moveTo(worldMousePos, player.speed);
   });
