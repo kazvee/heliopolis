@@ -156,10 +156,10 @@ k.scene('main', async () => {
   });
   k.onKeyDown((key) => {
     const keyMap = [
-      k.isKeyDown('right'),
-      k.isKeyDown('left'),
-      k.isKeyDown('up'),
-      k.isKeyDown('down'),
+      k.isKeyDown('right') || k.isKeyDown('d'),
+      k.isKeyDown('left') || k.isKeyDown('a'),
+      k.isKeyDown('up') || k.isKeyDown('w'),
+      k.isKeyDown('down') || k.isKeyDown('s'),
     ];
 
     let nbOfKeyPressed = 0;
