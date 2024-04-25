@@ -46,7 +46,7 @@ body {
 
 .ui-close-btn {
   font-family: inherit;
-  border-style: none;
+  border-style: solid;
   border-radius: 3px;
   padding: 1rem;
   font-size: inherit;
