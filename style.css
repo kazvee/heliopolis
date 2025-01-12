@@ -1,6 +1,6 @@
 @font-face {
   font-family: monogram;
-  src: url(monogram.ttf);
+  src: url(./monogram.ttf);
 }
 
 body {
@@ -45,6 +45,7 @@ body {
 }
 
 .ui-close-btn {
+  cursor: pointer;
   font-family: inherit;
   border-style: solid;
   border-radius: 3px;
