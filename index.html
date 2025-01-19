@@ -1,14 +1,17 @@
 <!doctype html>
-<html lang="en">
+<html lang='en'>
+
 <head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset='UTF-8' />
+  <link rel='icon' type='image/svg+xml' href='/vite.svg' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
   <title>Heliopolis</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel='stylesheet' href='style.css'>
 </head>
+
 <body>
-  <div id="app">
+  <div id='app'>
+    <a id='info-link'>What is this site?</a>
     <div id='ui'>
       <p class='note'>Click / Tap to move around</p>
       <div id='textbox-container'>
@@ -20,8 +23,38 @@
         </div>
       </div>
     </div>
-    <canvas id="game"></canvas>
+    <canvas id='game'></canvas>
   </div>
-  <script type="module" src="src/main.js"></script>
+  <div id='info-overlay'></div>
+  <div id='info-popup'>
+    <h2>About Heliopolis</h2>
+    <p>This site is a fan-created platform and is not affiliated with or endorsed by any official entities.</p>
+    <p>It is designed as an informational resource only.</p>
+    <p>Any characters or likenesses depicted on this site are entirely fictional and should not be interpreted as
+      representing real people.</p>
+    <button id='info-popup-close-btn'>Close</button>
+  </div>
+  <script type='module' src='src/main.js'></script>
+  <script>
+    const infoLink = document.getElementById('info-link');
+    const infoPopup = document.getElementById('info-popup');
+    const infoOverlay = document.getElementById('info-overlay');
+    const closePopupBtn = document.getElementById('info-popup-close-btn');
+
+    infoLink.addEventListener('click', () => {
+      infoPopup.style.display = 'block';
+      infoOverlay.style.display = 'block';
+    });
+
+    closePopupBtn.addEventListener('click', () => {
+      infoPopup.style.display = 'none';
+      infoOverlay.style.display = 'none';
+    });
+
+    infoOverlay.addEventListener('click', (event) => {
+      event.stopPropagation();
+    });
+  </script>
 </body>
+
 </html>
