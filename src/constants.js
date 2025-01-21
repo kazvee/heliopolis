@@ -3,13 +3,14 @@ export const scaleFactor = 1; // TODO: change back to 4 when finished testing
 export const dialogueData = {
   // #
   '1': "Like most places, HelioHost has some <a href='https://wiki.helionet.org/Terms' target='_blank'>rules</a> everyone needs to follow. Here's a big 1!<p>What does the big 1 have to do with the rules? Well, everyone is only allowed <strong>one</strong> account on HelioHost. 1. One. <strong>ONE</strong>. People who make more than one account will be <a href='https://wiki.helionet.org/Suspension_Policy#Duplicate_Accounts' target='_blank'>suspended</a>.<p>This rule helps HelioHost provide free accounts to as many people as possible.",
+  '10': "We can have up to <a href='https://wiki.helionet.org/Addon_Domains' target='_blank'>10 domains</a> on an account!<p>I use my <a href='https://wiki.helionet.org/Changing_Your_Main_Domain' target='_blank'>main domain</a> for my website, and I set up a <a href='https://wiki.helionet.org/Subdomains' target='_blank'>subdomain</a> for my blog. I'm thinking about adding a few more domains for my projects, too!<p>I'm going to check out <a href='https://wiki.helionet.org/What_HelioHost_Offersa' target='_blank'>what else I get with my HelioHost account</a>!",
   '20': "<a href='https://heliohost.org/' target='_blank'>HelioHost</a> has been offering free web hosting services to the community for over 20 years!<p>You can <a href='https://heliohost.org/donate/' target='_blank'>make a donation</a> to help support their efforts, or check out some <a href='https://wiki.helionet.org/How_You_Can_Help' target='_blank'>other ways you can help</a>.",
   '404': "Whoa, that's a big error! Did you know that HelioHost has a big help section for <a href='https://wiki.helionet.org/Common_Errors' target='_blank'>Common Errors</a>? You can get all kinds of help there!",
 
   // A
 
   // B
-  'binary-tree': "01101000 01100101 01101100 01101100 01101111 00001010<p>Hmm...<p>I wonder what that means...",
+  'binary-tree': "01110100 01110010 01100101 01100101<p>Hmm...<p>I wonder what that means...",
 
   // C
   'cpu': "HelioHost accounts have a limit of <a href='https://wiki.helionet.org/Suspension_Policy#Account_Load_Limits' target='_blank'>no more than 10,000 CPU usage</a> per day.<p>If that's not enough, they also have <a href='https://wiki.helionet.org/Morty' target='_blank'>scaling hosting</a>! For people who need even more CPUs, they offer a range of <a href='https://heliohost.org/vps/' target='_blank'>VPS plans</a>, with a 10% discount when paying for 6 months upfront.",
@@ -29,7 +30,7 @@ export const dialogueData = {
   // H
 
   // I
-  'internet': "A series of tubes? This must be the internet!",
+  'internet': "A series of tubes? Whoa, this must be the internet!",
 
   // J
   'johnny': "This is the free <a href='https://wiki.helionet.org/Johnny' target='_blank'>Johnny server</a>! He's <a href https://wiki.helionet.org/Signing_Up#Helpful_Tips_for_Getting_a_Free_Account_on_Johnny target='_blank'>incredibly popular</a> since he hosts all of HelioHost's free accounts!",
@@ -37,9 +38,10 @@ export const dialogueData = {
   // K
 
   // L
-  'ladder-left': "I'm not sure I should climb this...",
-  'ladder-right': "I have a strange feeling I might regret climbing this...",
-  'ledge-vase': "What is this? A clay pot? A vase? Why would anyone leave this here?<p>Did I seriously walk all the way over here for nothing but an empty vase?!",
+  'ladder-left': "I'm not sure I should touch this...",
+  'ladder-right': "I have a strange feeling I might regret using this ladder...",
+  'ledge-vase': "What is this? A clay pot? A vase? Why would anyone leave this here?<p>Did I seriously walk <em>all the way over here</em> just to find an empty vase?!",
+  'lily': "This is <a href='https://wiki.helionet.org/Lily' target='_blank'>Lily</a>! She's pretty special because she runs Windows Server!",
 
   // M
   'memory': "HelioHost accounts have a memory limit of <a href='https://wiki.helionet.org/Suspension_Policy#Account_Load_Limits' target='_blank'>no more than 100 GB</a> per day.<p>If that's not enough, they also have <a href='https://wiki.helionet.org/Morty' target='_blank'>scaling hosting</a>! For people who need even more memory, they offer a range of <a href='https://heliohost.org/vps/' target='_blank'>VPS plans</a>, with a 10% discount when paying for 6 months upfront.",
