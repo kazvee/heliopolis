@@ -3,25 +3,29 @@ export const scaleFactor = 1; // TODO: change back to 4 when finished testing
 export const dialogueData = {
   // #
   '1': "Like most places, HelioHost has some <a href='https://wiki.helionet.org/Terms' target='_blank'>rules</a> everyone needs to follow. Here's a big 1!<p>What does the big 1 have to do with the rules? Well, everyone is only allowed <strong>one</strong> account on HelioHost. 1. One. <strong>ONE</strong>. People who make more than one account will be <a href='https://wiki.helionet.org/Suspension_Policy#Duplicate_Accounts' target='_blank'>suspended</a>.<p>This rule helps HelioHost provide free accounts to as many people as possible.",
-  '10': "We can have up to <a href='https://wiki.helionet.org/Addon_Domains' target='_blank'>10 domains</a> on an account!<p>I use my <a href='https://wiki.helionet.org/Changing_Your_Main_Domain' target='_blank'>main domain</a> for my website, and I set up a <a href='https://wiki.helionet.org/Subdomains' target='_blank'>subdomain</a> for my blog. I'm thinking about adding a few more domains for my projects, too!<p>I'm going to check out <a href='https://wiki.helionet.org/What_HelioHost_Offersa' target='_blank'>what else I get with my HelioHost account</a>!",
+  '10': "We can host up to <a href='https://wiki.helionet.org/Addon_Domains' target='_blank'>10 domains</a> on one account! I use my <a href='https://wiki.helionet.org/Changing_Your_Main_Domain' target='_blank'>main domain</a> for my website and requested a <a href='https://wiki.helionet.org/Subdomains' target='_blank'>subdomain</a> for my blog.<p>When I think of a cool custom domain name, I'll register it with <a href='https://heliohost.org/partners/namecheap' target='_blank'>Namecheap</a> since HelioHost has an <a href='https://wiki.helionet.org/How_You_Can_Help#Use_Our_Affiliate_Links' target='_blank'>affiliate agreement</a> with them. HelioHost will get a small commission when I use the referral link, and that's a great way I can help support them!",
   '20': "<a href='https://heliohost.org/' target='_blank'>HelioHost</a> has been offering free web hosting services to the community for over 20 years!<p>You can <a href='https://heliohost.org/donate/' target='_blank'>make a donation</a> to help support their efforts, or check out some <a href='https://wiki.helionet.org/How_You_Can_Help' target='_blank'>other ways you can help</a>.",
   '404': "Whoa, that's a big error! Did you know that HelioHost has a big help section for <a href='https://wiki.helionet.org/Common_Errors' target='_blank'>Common Errors</a>? You can get all kinds of help there!",
 
-  // A
+  // A  
+  'account-load': "I check my <a href='https://heliohost.org/dashboard/load/' target='_blank'>account load</a> every so often, to make sure I don't risk <a href='https://wiki.helionet.org/Suspension_Policy#High_Server_Usage' target='_blank'>account suspension</a>.<p>Sofa, so good! ha ha ha!<p>",
 
   // B
   'binary-tree': "01110100 01110010 01100101 01100101<p>Hmm...<p>I wonder what that means...",
+  'bookcase': "HelioHost's <a href='https://wiki.helionet.org/Tutorials' target='_blank'>tutorial section</a> is like a big bookcase full of information! I can build all kinds of things with the help of their how-to guides!",
 
   // C
   'cpu': "HelioHost accounts have a limit of <a href='https://wiki.helionet.org/Suspension_Policy#Account_Load_Limits' target='_blank'>no more than 10,000 CPU usage</a> per day.<p>If that's not enough, they also have <a href='https://wiki.helionet.org/Morty' target='_blank'>scaling hosting</a>! For people who need even more CPUs, they offer a range of <a href='https://heliohost.org/vps/' target='_blank'>VPS plans</a>, with a 10% discount when paying for 6 months upfront.",
 
   // D
+  'database': "What a nice table! Is it... mahogany?<p>Tables are great! At HelioHost, we can create <a href='https://wiki.helionet.org/PostgreSQL' target='_blank'>PostgreSQL</a>, <a href='https://wiki.helionet.org/MySQL' target='_blank'>MySQL/MariaDB</a>, and <a href='https://wiki.helionet.org/SQLite' target='_blank'>SQLite</a> databases and use phpMyAdmin to manage them!",
 
   // E
 
   // F
   'fireplace': "< fireplace noises >",
   'firewall': "Hmm...<p>Oh, wait...<p>It's a <em>firewall</em>!<p>It's a lot more fiery than I expected...",
+  'forum-news': "I've seen a few emails from HelioHost but I forgot what they said. I better check the <a href='https://heliohost.org/index/forum/1-news/' target='_blank'>HelioNet forum News section</a> to catch up on any important service announcements!",
   'frog': "I wasn't always a frog, you know...<p><em>< sad frog noises ></em><p>If only I had followed the <a href='https://wiki.helionet.org/Terms' target='_blank'>rules</a>!",
 
   // G
@@ -42,6 +46,7 @@ export const dialogueData = {
   'ladder-right': "I have a strange feeling I might regret using this ladder...",
   'ledge-vase': "What is this? A clay pot? A vase? Why would anyone leave this here?<p>Did I seriously walk <em>all the way over here</em> just to find an empty vase?!",
   'lily': "This is <a href='https://wiki.helionet.org/Lily' target='_blank'>Lily</a>! She's pretty special because she runs Windows Server!",
+  'logs': "If an error on my site <em>leaves</em> me <em>stumped</em>, I can check the <a href='https://wiki.helionet.org/View_Error_Logs' target='_blank'>Error Logs</a> in Plesk to get to the <em>root</em> of the problem.<p>If I still can't get things working <em>pine</em>, I'll <em>log</em> in to the <a href='https://helionet.org/index/forum/45-customer-service/?do=add' target='_blank'>Customer Support forum</a>, where I'm sure people <em>wood</em> be happy to help me!<p> < puns included at no cost > ",
 
   // M
   'memory': "HelioHost accounts have a memory limit of <a href='https://wiki.helionet.org/Suspension_Policy#Account_Load_Limits' target='_blank'>no more than 100 GB</a> per day.<p>If that's not enough, they also have <a href='https://wiki.helionet.org/Morty' target='_blank'>scaling hosting</a>! For people who need even more memory, they offer a range of <a href='https://heliohost.org/vps/' target='_blank'>VPS plans</a>, with a 10% discount when paying for 6 months upfront.",
@@ -52,13 +57,16 @@ export const dialogueData = {
   // O
 
   // P
+  'plesk': "I'm going to <a href='https://wiki.helionet.org/Account_Backups#Making_Your_Own_Manual_Account_Backup' target='_blank'>backup my account</a> right now and download a copy to my local computer!<p>I worked so hard on my site, I should definitely save a copy of it somewhere safe, just in case!",
 
   // Q
 
   // R
-  'red-button': "A big red button in the middle of nowhere? It's <em>definitely</strong> a good idea to push this!<p>< click ><p>Ooh, this must be the <a href='https://wiki.helionet.org/Softaculous' target='_blank'>Softaculous</a> 'one-click' installer! I can use this to easily install all kinds of popular software packages!<p>< clicks again >",
+  'red-button': "A big red button in the middle of nowhere? It's <emd>definitely</emd> a good idea to push this!<p>< click ><p>Ooh, this must be the <a href='https://wiki.helionet.org/Softaculous' target='_blank'>Softaculous</a> 'one-click' installer! I can use this to easily install all kinds of popular software packages!<p>< clicks again >",
 
-  // S  
+  // S
+  'server-status': "A real-time <a href='https://heliohost.org/serverstatus/' target='_blank'>server status</a> page?! Neat! This is the first place I'll check if I see notice anything unusual happening with my site!",
+  'storage': "Whoever left all this stuff on the floor clearly needs a better storage solution.<p>If I ever need more than the <a href='https://wiki.helionet.org/Storage' target='_blank'>1000 MB of disk space</a> that comes with my standard HelioHost account, I can make a <a href='https://wiki.helionet.org/Donations_for_Increased_Storage' target='_blank'>one-time donation</a> to add more storage, increasing my filespace up to a total of 6000 MB. That would hold so many memes...",
 
   // T
   'terms': "These are HelioHost's <a href='https://heliohost.org/terms/' target='_blank'>Terms of Service</a>! I better check this out to make sure I don't break any rules and get my <a href='https://wiki.helionet.org/Suspension_Policy' target='_blank'>account suspended</a>.",
