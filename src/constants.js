@@ -33,9 +33,10 @@ export const dialogueData = {
   'green-grass': "When something in a game looks a little out of place, sometimes it's hiding a secret!<p>But not here. This is just a patch of really green grass.<p>I'm going to go read the <a href='https://helionet.org/index/forum/1-news/' target='_blank'>HelioNet forum News section</a> now.",
 
   // H
+  'horse': "What's this sign for?<p>***** NOTICE: Have you found my horse? Last seen moving 2 squares forward and 1 square right! *****<p>Hmm, I'll keep an eye out for sure. Hay, speaking of stable solutions, the flagship <a href='https://wiki.helionet.org/Morty' tardget='_blank'>Morty server</a> offers great uptime, reliability, and speed. No horsing around!",
 
   // I
-  
+  'inactive-accounts': "To make sure that old, unused accounts don't fill up the servers, HelioHost has an <a href='https://wiki.helionet.org/Suspension_Policy#Inactivity_Policy' target='_blank'>inactivity policy</a> on the <a href='https://wiki.helionet.org/Tommy' target='_blank'>Tommy</a> and <a href='https://wiki.helionet.org/Johnny' target='_blank'>Johnny</a> servers. I guess making sure that accounts stay active means they can keep finding room for new users to join!<p>When I travel to the moon, I'll move my account to <a href='https://wiki.helionet.org/Morty' target='_blank'>Morty</a> so I won't have to worry about inactivity suspensions as long as there's a positive account balance!",
   'internet': "This looks like... a series of tubes? Whoa, it must be the internet!",
 
   // J
@@ -68,9 +69,9 @@ export const dialogueData = {
   'red-button': "A big red button in the middle of nowhere? It's <em>definitely</em> a good idea to push this!<p>< click ><p>Ooh, this must be the <a href='https://wiki.helionet.org/Softaculous' target='_blank'>Softaculous</a> 'one-click' installer! I can use this to easily install all kinds of popular software packages!<p>< clicks again >",
 
   // S
-  'server-reboot': "",
+  'server-restart': "Apache restarts happen <a href='https://wiki.helionet.org/504_Gateway_Timeout' target='_blank'>every 2 hours</a> on the shared hosting servers. My site might display a 504 Gateway Timeout error for the few minutes it's rebooting. <p>If my site ever loads a bit slowly or displays an error, I check the <a href='https://status.heliohost.org/' target='_blank'>HelioHost Services Status Page</a> first to see if it's a server restart. <p>I could get a <a href='https://heliohost.org/vps/' target='_blank'>VPS</a> if I wanted to leave my server running for weeks of months without a reboot. I'd probably still reboot it anyway though, just so it can enjoy a little nap every so often.",
   'server-status': "A real-time <a href='https://heliohost.org/serverstatus/' target='_blank'>server status</a> page?! Neat! This is the first place I'll check if I see notice anything unusual happening with my site!",
-  'side-table-red': "To make sure that old, unused accounts don't fill up the servers, HelioHost has an <a href='https://wiki.helionet.org/Suspension_Policy#Inactivity_Policy' target='_blank'>inactivity policy</a> on the <a href='https://wiki.helionet.org/Tommy' target='_blank'>Tommy</a> and <a href='https://wiki.helionet.org/Johnny' target='_blank'>Johnny</a> servers. I guess making sure that accounts stay active means they can keep finding room for new users to join!<p>When I travel to the moon, I'll be gone longer than a month for sure. I'll make sure to move my account <a href='https://wiki.helionet.org/Morty' target='_blank'>Morty</a> before then. He's their flagship hosting server, and as long as I have a positive balance in the account, I won't have to worry about inactivity suspensions while I'm up in space!",
+  
   'sofa-account-load': "I check my <a href='https://heliohost.org/dashboard/load/' target='_blank'>account load</a> every so often, to make sure I don't risk <a href='https://wiki.helionet.org/Suspension_Policy#High_Server_Usage' target='_blank'>account suspension</a>.<p>Sofa, so good! ha ha ha!<p>",
   
   // T
