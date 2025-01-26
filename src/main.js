@@ -1,6 +1,6 @@
 import { characters } from './characters';
 import { dialogueData, scaleFactor } from './constants';
-import { k } from './kaboomContext';
+import { k } from './kaplayContext';
 import { displayDialogue, setCamScale } from './utils';
 
 const randomCharacter =
