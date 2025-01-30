@@ -84,7 +84,7 @@ k.scene('main', async () => {
   });
 
   k.onUpdate(() => {
-    k.camPos(player.worldPos().x, player.worldPos().y - 100);
+    k.setCamPos(player.worldPos().x, player.worldPos().y - 100);
   });
 
   k.onMouseDown((mouseBtn) => {
@@ -102,7 +102,7 @@ k.scene('main', async () => {
     if (
       mouseAngle > lowerBound &&
       mouseAngle < upperBound &&
-      player.curAnim() !== 'walk-up'
+      player.getCurAnim().name !== 'walk-up'
     ) {
       player.play('walk-up');
       player.direction = 'up';
@@ -112,7 +112,7 @@ k.scene('main', async () => {
     if (
       mouseAngle < -lowerBound &&
       mouseAngle > -upperBound &&
-      player.curAnim() !== 'walk-down'
+      player.getCurAnim().name !== 'walk-down'
     ) {
       player.play('walk-down');
       player.direction = 'down';
@@ -121,14 +121,14 @@ k.scene('main', async () => {
 
     if (Math.abs(mouseAngle) > upperBound) {
       player.flipX = false;
-      if (player.curAnim() !== 'walk-side') player.play('walk-side');
+      if (player.getCurAnim().name !== 'walk-side') player.play('walk-side');
       player.direction = 'right';
       return;
     }
 
     if (Math.abs(mouseAngle) < lowerBound) {
       player.flipX = true;
-      if (player.curAnim() !== 'walk-side') player.play('walk-side');
+      if (player.getCurAnim().name !== 'walk-side') player.play('walk-side');
       player.direction = 'left';
       return;
     }
@@ -173,7 +173,7 @@ k.scene('main', async () => {
 
     if (keyMap[0]) {
       player.flipX = false;
-      if (player.curAnim() !== 'walk-side') player.play('walk-side');
+      if (player.getCurAnim().name !== 'walk-side') player.play('walk-side');
       player.direction = 'right';
       player.move(player.speed, 0);
       return;
@@ -181,21 +181,21 @@ k.scene('main', async () => {
 
     if (keyMap[1]) {
       player.flipX = true;
-      if (player.curAnim() !== 'walk-side') player.play('walk-side');
+      if (player.getCurAnim().name !== 'walk-side') player.play('walk-side');
       player.direction = 'left';
       player.move(-player.speed, 0);
       return;
     }
 
     if (keyMap[2]) {
-      if (player.curAnim() !== 'walk-up') player.play('walk-up');
+      if (player.getCurAnim().name !== 'walk-up') player.play('walk-up');
       player.direction = 'up';
       player.move(0, -player.speed);
       return;
     }
 
     if (keyMap[3]) {
-      if (player.curAnim() !== 'walk-down') player.play('walk-down');
+      if (player.getCurAnim().name !== 'walk-down') player.play('walk-down');
       player.direction = 'down';
       player.move(0, player.speed);
     }

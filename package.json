@@ -13,6 +13,7 @@
     "vite": "^5.2.0"
   },
   "dependencies": {
-    "kaplay": "^3001.0.9"
+    "kaplay": "^3001.0.9",
+    "passive-events-support": "^1.1.0"
   }
 }
