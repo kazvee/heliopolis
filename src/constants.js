@@ -12,12 +12,14 @@ export const dialogueData = {
   // B
   'binary-tree': `01110100 01110010 01100101 01100101<p>Hmm...<p>I wonder what that means...`,
   'bookcase': `HelioHost's ${createLink(urls.tutorials, 'tutorial')} section is like a big bookcase full of information! I can build all kinds of things with the help of their how-to guides!`,
-  'buzz': `< buzz noises ><p>Ooh, it's a tiny little <em>bug</em>! Bugs belong outside on the flowers, NOT in my code!<p>I make sure to check ${(createLink(urls.errorLogs, 'my error logs'))} if anything unexpected happens with my site.`,
+  'bunny': `I've just installed a CMS with ${createLink(urls.softaculous, 'Softaculous')}!<p>You know... a Carrot Management System!`,
+  'buzz': `< buzzing noises ><p>Ooh, it's a tiny little <em>bug</em>! Bugs belong outside on the flowers, NOT in my code!<p>I make sure to check ${(createLink(urls.errorLogs, 'my error logs'))} if anything unexpected happens with my site.`,
 
   // C
   'campfire': `A campfire? I wish I'd brought some marshmallows...`,
   'castle-door': `Anybody home?`,
   'chest-coins': `I wonder how much money this is... If it adds up to at least $1 USD, I could sign up for an account on the ${createLink(urls.tommySignup, 'Tommy server')} right now! I bet there's enough here...`,
+  'clock': `Changes to Node.js apps, PHP pages, domain management, and other stuff might need up to 2 hours to fully work, because they need an Apache server restart to take effect. I read that in the ${createLink(urls.wiki, 'HelioHost Wiki')}! `,
   'common-errors': `Whoa, that's a big error! Did you know that HelioHost has a big help section for ${createLink(urls.commonErrors, 'Common Errors')}? You can get loads of troubleshooting steps there!`,
   'cpu': `HelioHost accounts have a limit of ${createLink(urls.accountLoadLimits, 'no more than 10,000 CPU')} usage per day.<p>If that's not enough, they also have ${createLink(urls.morty, 'scaling hosting')}! For people who need even more CPUs, they offer a range of ${createLink(urls.vps, 'VPS plans')}, with a 10% discount when paying for 6 months upfront.`,
 
@@ -72,6 +74,7 @@ export const dialogueData = {
   // P
   'plesk': `I'm going to ${createLink(urls.backupYourAccount, 'backup my account')} right now and download a copy to my local computer!<p>I worked so hard on my site, I should definitely save a copy of it somewhere safe, just in case!`,
   'potion-storage': `Whoever left all this stuff on the floor clearly needs a better storage solution.<p>If I ever need more than the ${createLink(urls.storage, '1000 MB')} of disk space that comes with my standard HelioHost account, I can make a ${createLink(urls.donationsForStorage, 'one-time donation')} to add more storage. I need extra room for all my memes......`,
+  'python': `What's <em>your</em> favorite programming language?<p>Mine, too!<p>I use HelioHost's ${createLink(urls.morty, 'scaling hosting')}!`,
 
   // Q
 
@@ -93,7 +96,7 @@ export const dialogueData = {
   'tower-right': `< weird noises ><p>Umm... I better leave this alone.`,
   'treasure-chest': `I wonder what's in here...`,
   'treasure-rug': `A treasure chest? And it's open?! There's a note inside! Maybe it's a map? A list of magic spells?! I'm going to read it! It says...<p>Hmm... It says... 'Please do not walk on the rug.'<p>Grr! This note could have been an email! Speaking of email, HelioHost has a great ${createLink(urls.emailDeliveryIssues, 'troubleshooting help page')} for any mail delivery issues you might have.`,
-  'twenty-years': `${createLink(urls.helioHost, 'HelioHost')} has been offering free web hosting services to the community for over 20 years!<p>You can ${createLink(urls.donate, 'make a donation')} to help support their efforts, or check out some ${createLink(urls.howYouCanHelp, 'other ways')} you can help.`,
+  'twenty-years': `${createLink(urls.helioHost, 'HelioHost')} has been offering free web hosting services to the community for over 20 years!<p>You can ${createLink(urls.donate, 'make a donation')} to help support their efforts, or check out some ${createLink(urls.howYouCanHelp, 'other ways')} you can help.`,  
 
   // U
 
@@ -101,7 +104,7 @@ export const dialogueData = {
   'vps': `These are the ${createLink(urls.vps, 'VPS')} servers! Wanna know a secret?<p>If you pay for 6 months upfront, you get a <strong>10% discount</strong>!<p>Well... I guess it's not really a secret. The discount is shown right on the page when you choose a VPS plan!`,
 
   // W
-  'welcome': `Welcome to Heliopolis! This is a fan website where you can learn more about ${createLink(urls.helioHost, 'HelioHost')} and their mission to full-featured web hosting services for free. <p>All details have been sourced from the ${createLink(urls.wiki, 'HelioHost Wiki')}.<p>Please feel free to interact with your surroundings: Read signs, hug trees, talk to the wildlife, and walk around some more.<p>Running is strictly forbidden.`,
+  'welcome': `Welcome to Heliopolis! This is a fan website where you can learn more about ${createLink(urls.helioHost, 'HelioHost')} and their mission to provide full-featured web hosting services for free. <p>All details have been sourced from the ${createLink(urls.wiki, 'HelioHost Wiki')}.<p>Please feel free to interact with your surroundings: Read signs, hug trees, talk to the wildlife, and walk around some more.<p>Running is strictly forbidden.`,
 
   // X
 
