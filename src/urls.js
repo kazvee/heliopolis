@@ -17,6 +17,7 @@ export const urls = {
   eta: 'https://wiki.helionet.org/ETA',
   faq: 'https://wiki.helionet.org/FAQ',
   helioHost: 'https://heliohost.org/',
+  helioNet: 'https://helionet.org/',
   highServerUsage: 'https://wiki.helionet.org/Suspension_Policy#High_Server_Usage',
   howYouCanHelp: 'https://wiki.helionet.org/How_You_Can_Help',
   inactivityPolicy: 'https://wiki.helionet.org/Suspension_Policy#Inactivity_Policy',
