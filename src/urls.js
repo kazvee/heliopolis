@@ -7,6 +7,7 @@ export const urls = {
   commonErrors: 'https://wiki.helionet.org/Common_Errors',
   createWebsite: 'https://wiki.helionet.org/Create_Website',
   customerSupport: 'https://helionet.org/index/forum/45-customer-service/?do=add',
+  discord: 'https://heliohost.org/chat/',
   donate: 'https://heliohost.org/donate/',
   donationsForStorage: 'https://wiki.helionet.org/Donations_for_Increased_Storage',
   duplicateAccounts: 'https://wiki.helionet.org/Suspension_Policy#Duplicate_Accounts',
@@ -43,5 +44,6 @@ export const urls = {
   tommySignup: 'https://heliohost.org/tommy/',
   tutorials: 'https://wiki.helionet.org/Tutorials',
   vps: 'https://heliohost.org/vps/',
+  whereToAskForHelp: 'https://wiki.helionet.org/FAQ#Where_do_I_ask_for_help?',
   wiki: 'https://wiki.helionet.org/',
 };
