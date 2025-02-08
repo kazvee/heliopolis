@@ -25,12 +25,12 @@ export const dialogueData = {
   'cpu': `HelioHost accounts have a limit of ${createLink(urls.accountLoadLimits, 'no more than 10,000 CPU')} usage per day.<p>If that's not enough, they also have ${createLink(urls.morty, 'scaling hosting')}! For people who need even more CPUs, they offer a range of ${createLink(urls.vps, 'VPS plans')}, with a 10% discount when paying for 6 months upfront.`,
 
   // D
-  'discord': `Some HelioHost staff are more active on ${createLink(urls.discord, 'Discord')} than elsewhere. Asking the same question in Discord, on the Helionet forum, and by email can waste people's time and delay help for others.<p>${createLink(urls.whereToAskForHelp, 'Wherever you ask for help')}, it's best to ask just once, in a single place!`,
+  'discord': `Some HelioHost staff are more active on ${createLink(urls.discord, 'Discord')} than elsewhere. Asking the same question in Discord, on the Helionet forum, and by email can waste people's time and delay help for others.<p>It can feel a little annoying reading the same thing over and over again, so ${createLink(urls.whereToAskForHelp, 'wherever you ask for help')}, it's best to ask just once, in a single place!`,
   'domain-limit': `We can host up to ${createLink(urls.addonDomains, '10 domains')} on one account! I use my ${createLink(urls.mainDomain, 'main domain')} for my website and requested a ${createLink(urls.subdomain, 'subdomain')} for my blog.<p>When I think of a cool custom domain name, I'll register it with ${createLink(urls.namecheap, 'Namecheap')} since HelioHost has an ${createLink(urls.affiliate, 'affiliate')} agreement with them. HelioHost will get a small commission when I use the referral link, and that's a great way I can help support them!`,
   'door': `I can't fit in there!`,
 
   // E
-  'email': `Some HelioHost staff are more active in the email support inbox than than elsewhere. Asking the same question by email, in Discord, and on the Helionet forum can waste people's time and delay help for others.<p>${createLink(urls.whereToAskForHelp, 'Wherever you ask for help')}, it's best to ask just once, in a single place!`,
+  'email': `Some HelioHost staff are more active in the email support inbox than than elsewhere. Asking the same question by email, in Discord, and on the Helionet forum can waste people's time and delay help for others.<p>It can feel a little annoying reading the same thing over and over again, so ${createLink(urls.whereToAskForHelp, 'wherever you ask for help')}, it's best to ask just once, in a single place!`,
 
   // F
   'fireplace': `< fireplace noises >`,
@@ -45,7 +45,7 @@ export const dialogueData = {
   'green-grass': `When something in a game looks a little out of place, sometimes it's hiding a secret!<p>But not here. This is just a patch of really green grass.<p>I'm going to go check out the ${createLink(urls.helioNet, 'HelioNet Forum')} now...`,
 
   // H
-  'helionet': `Some HelioHost staff are more active on the ${createLink(urls.customerSupport, 'HelioNet Forum')} than elsewhere. Asking the same question on the forum, in Discord, and by email can waste people's time and delay help for others.<p>${createLink(urls.whereToAskForHelp, 'Wherever you ask for help')}, it's best to ask just once, in a single place!`,
+  'helionet': `Some HelioHost staff are more active on the ${createLink(urls.customerSupport, 'HelioNet Forum')} than elsewhere. Asking the same question on the forum, in Discord, and by email can waste people's time and delay help for others.<p>It can feel a little annoying reading the same thing over and over again, so ${createLink(urls.whereToAskForHelp, 'wherever you ask for help')}, it's best to ask just once, in a single place!`,
   'hello-world': `'HELLO WORLD', the classic starting point for every new creation!<p>HelioHost offers a ${createLink(urls.createWebsite, 'quick guide')} for getting a basic website set up inside Plesk, and a bunch of other ${createLink(urls.tutorials, 'tutorials')} for programming languages!`,
   'horse': `What's this sign for?<p>***** NOTICE: Have you found my horse? Last seen moving 2 squares forward and 1 square right! *****<p>Hmm, I'll keep an eye out for sure. <em>Hay</em>, speaking of <em>stable</em> solutions, the flagship ${createLink(urls.morty, 'Morty')} server offers great uptime, reliability, and speed. No <em>horsing</em> around!`,
 
