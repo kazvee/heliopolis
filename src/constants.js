@@ -1,5 +1,5 @@
 import { urls } from './urls';
-export const scaleFactor = 4; // TODO: change back to 4 when finished testing
+export const scaleFactor = 4;
 
 function createLink(url, text) {
   return `<a href="${url}" target="_blank" rel="noopener noreferrer">${text}</a>`;
@@ -10,7 +10,7 @@ export const dialogueData = {
   // A
 
   // B
-  'bed': `All HelioHost staff are  ${createLink(urls.eta, 'volunteers')}, and sometimes they need to sleep. It's a good idea to be patient when asking for help on Discord or the ${createLink(urls.customerSupport, 'Customer Support forum')}.<p>Other users can help you out too! That's the great thing about a community-driven support system!`,
+  'bed': `All HelioHost staff are  ${createLink(urls.eta, 'volunteers')}, and sometimes they need to sleep. It's a good idea to be patient when asking for help.<p>Other users can help you out too! That's the great thing about a community-driven support system!<p>${createLink(urls.whereToAskForHelp, 'Wherever you ask for help')}, it's best to ask just once, in a single place.`,
   'binary-tree': `01110100 01110010 01100101 01100101<p>Hmm...<p>I wonder what that means...`,
   'bookcase': `HelioHost's ${createLink(urls.tutorials, 'tutorial')} section is like a big bookcase full of information! I can build all kinds of things with the help of their how-to guides!`,
   'bunny': `I've just installed a CMS with ${createLink(urls.softaculous, 'Softaculous')}!<p>You know... a Carrot Management System!`,
@@ -25,10 +25,12 @@ export const dialogueData = {
   'cpu': `HelioHost accounts have a limit of ${createLink(urls.accountLoadLimits, 'no more than 10,000 CPU')} usage per day.<p>If that's not enough, they also have ${createLink(urls.morty, 'scaling hosting')}! For people who need even more CPUs, they offer a range of ${createLink(urls.vps, 'VPS plans')}, with a 10% discount when paying for 6 months upfront.`,
 
   // D
+  'discord': `Some HelioHost staff are more active on ${createLink(urls.discord, 'Discord')} than elsewhere. Asking the same question in Discord, on the Helionet forum, and by email can waste people's time and delay help for others.<p>It can feel a little annoying reading the same thing over and over again, so ${createLink(urls.whereToAskForHelp, 'wherever you ask for help')}, it's best to ask just once, in a single place!`,
   'domain-limit': `We can host up to ${createLink(urls.addonDomains, '10 domains')} on one account! I use my ${createLink(urls.mainDomain, 'main domain')} for my website and requested a ${createLink(urls.subdomain, 'subdomain')} for my blog.<p>When I think of a cool custom domain name, I'll register it with ${createLink(urls.namecheap, 'Namecheap')} since HelioHost has an ${createLink(urls.affiliate, 'affiliate')} agreement with them. HelioHost will get a small commission when I use the referral link, and that's a great way I can help support them!`,
   'door': `I can't fit in there!`,
 
   // E
+  'email': `Some HelioHost staff are more active in the email support inbox than than elsewhere. Asking the same question by email, in Discord, and on the Helionet forum can waste people's time and delay help for others.<p>It can feel a little annoying reading the same thing over and over again, so ${createLink(urls.whereToAskForHelp, 'wherever you ask for help')}, it's best to ask just once, in a single place!`,
 
   // F
   'fireplace': `< fireplace noises >`,
@@ -39,11 +41,12 @@ export const dialogueData = {
   'frog': `I wasn't always a frog, you know...<p><em>< sad frog noises ></em><p>If only I had followed the ${createLink(urls.terms, 'rules')}!`,
 
   // G
-  'ghost': `Did you know that all HelioHost staff are  ${createLink(urls.eta, 'volunteers')}?! Yup, they help users for free in their spare time! <p>When I have free time, I go camping. Oh, I'm not a ghost, I just got tangled up in my sleeping bag. Ha ha! Uhh... I'm really stuck here...`,
+  'ghost': `Did you know that all HelioHost staff are  ${createLink(urls.eta, 'volunteers')}?! Yup, they help users for free in their spare time!<p>When I have free time, I go camping. Oh, I'm not a ghost, I just got tangled up in my sleeping bag. Ha ha! Uhh... I'm really stuck here...`,
   'green-grass': `When something in a game looks a little out of place, sometimes it's hiding a secret!<p>But not here. This is just a patch of really green grass.<p>I'm going to go check out the ${createLink(urls.helioNet, 'HelioNet Forum')} now...`,
 
   // H
-  'hello-world': `'HELLO WORLD', the classic starting point for every new creation! <p>HelioHost offers a ${createLink(urls.createWebsite, 'quick guide')} for getting a basic website set up inside Plesk, and a bunch of other ${createLink(urls.tutorials, 'tutorials')} for programming languages!`,
+  'helionet': `Some HelioHost staff are more active on the ${createLink(urls.customerSupport, 'HelioNet Forum')} than elsewhere. Asking the same question on the forum, in Discord, and by email can waste people's time and delay help for others.<p>It can feel a little annoying reading the same thing over and over again, so ${createLink(urls.whereToAskForHelp, 'wherever you ask for help')}, it's best to ask just once, in a single place!`,
+  'hello-world': `'HELLO WORLD', the classic starting point for every new creation!<p>HelioHost offers a ${createLink(urls.createWebsite, 'quick guide')} for getting a basic website set up inside Plesk, and a bunch of other ${createLink(urls.tutorials, 'tutorials')} for programming languages!`,
   'horse': `What's this sign for?<p>***** NOTICE: Have you found my horse? Last seen moving 2 squares forward and 1 square right! *****<p>Hmm, I'll keep an eye out for sure. <em>Hay</em>, speaking of <em>stable</em> solutions, the flagship ${createLink(urls.morty, 'Morty')} server offers great uptime, reliability, and speed. No <em>horsing</em> around!`,
 
   // I
@@ -61,7 +64,7 @@ export const dialogueData = {
   'ledge-vase': `What is this? A clay pot? A vase? Why would anyone leave this here?<p>Did I seriously walk <em>all the way over here</em> just to find an empty vase?!`,
   'lily': `This is the ${createLink(urls.lily, 'Lily')} server! She's pretty special because she runs Windows Server!`,
   'locked': `Is this drawer locked or just really stuck?!<p>Hmm...`,
-  'logs': `If an error on my site <em>leaves</em> me <em>stumped</em>, I can check the ${createLink(urls.errorLogs, 'Error Logs')} in Plesk to get to the <em>root</em> of the problem.<p>If I still can't get things working <em>pine</em>, I'll <em>log</em> in to the ${createLink(urls.customerSupport, 'Customer Support')} forum, where I'm sure people <em>wood</em> be happy to help me!<p> < puns included at no cost >`,
+  'logs': `If an error on my site <em>leaves</em> me <em>stumped</em>, I can check the ${createLink(urls.errorLogs, 'Error Logs')} in Plesk to get to the <em>root</em> of the problem.<p>If I still can't get things working <em>pine</em>, I'll <em>log</em> in to the ${createLink(urls.customerSupport, 'Customer Support')} forum, where I'm sure people <em>wood</em> be happy to help me!<p>< puns included at no cost >`,
 
   // M
   'maze': `<div style="transform: rotate(180deg); display: inline-block;">... This place is a-maze-ing! All that turning around made me a little dizzy, though...</div>`,
@@ -75,7 +78,7 @@ export const dialogueData = {
   // P
   'plesk': `I'm going to ${createLink(urls.backupYourAccount, 'backup my account')} right now and download a copy to my local computer!<p>I worked so hard on my site, I should definitely save a copy of it somewhere safe, just in case!`,
   'post': `"HEY YOU! I hope your sock twists up inside your shoe and feels really uncomfortable! ha ha ha! NOW GO AWAY."<p>...<p>Well, that's a rude post causing a fence. The ${createLink(urls.helioNet, 'HelioNet Forum')} is a lot friendlier, with very clear ${createLink(urls.helioNetTerms, 'rules')} for all posts!`,
-  'potion-storage': `Whoever left all this stuff on the floor clearly needs a better storage solution.<p>If I ever need more than the ${createLink(urls.storage, '1000 MB')} of disk space that comes with my HelioHost account, I can make a ${createLink(urls.donationsForStorage, 'one-time donation')} to add more storage. I need extra room for all my memes......`,
+  'potion-storage': `Whoever left all this stuff on the floor clearly needs a better storage solution.<p>If I ever need more than the ${createLink(urls.storage, '1000 MB')} of disk space that comes with my HelioHost account, I can make a ${createLink(urls.donationsForStorage, 'one-time donation')} to add more storage. I need extra room for all my memes...`,
   'python': `What's <em>your</em> favorite programming language?<p>Mine, too!<p>I use HelioHost's ${createLink(urls.morty, 'scaling hosting')}!`,
 
   // Q
@@ -85,8 +88,8 @@ export const dialogueData = {
   'rules': `Like most places, HelioHost has some ${createLink(urls.terms, 'rules')} everyone needs to follow. Here's a big 1!<p>What does the big 1 have to do with the rules? Well, everyone is only allowed <strong>one</strong> account on HelioHost. 1. One. <strong>ONE</strong>. People who make more than one account will be ${createLink(urls.duplicateAccounts, 'suspended')}.<p>This rule helps HelioHost provide free accounts to as many people as possible.`,
 
   // S
-  'selfie-spot': `** FREE SELFIE SPOT ****<p>Snap a selfie in the spot of your choice! Share your photos inside a ${createLink(urls.softaculous, 'Softaculous')}, social media app, or print them and mail them as postcards!`,
-  'server-restart': `Apache restarts every 2 hours on shared hosting, so my site might briefly show a ${createLink(urls.error502, '502')} or ${createLink(urls.error504, '504')} error. <p>I check the ${createLink(urls.statusPage, 'HelioHost Services Status Page')} to see what's happening. <p>With a ${createLink(urls.vps, 'VPS')}, my server could run for weeks or months, but I'd probably restart it anyway so it can have a little power nap as a treat!`,
+  'selfie-spot': `** FREE SELFIE SPOT ****<p>Snap a selfie in the spot of your choice! Share your photos inside a ${createLink(urls.softaculous, 'Softaculous')} forum, CMS, or blog!`,
+  'server-restart': `Apache restarts every 2 hours on shared hosting, so my site might briefly show a ${createLink(urls.error502, '502')} or ${createLink(urls.error504, '504')} error.<p>I check the ${createLink(urls.statusPage, 'HelioHost Services Status Page')} to see what's happening.<p>With a ${createLink(urls.vps, 'VPS')}, my server could run for weeks or months, but I'd probably restart it anyway so it can have a little power nap as a treat!`,
   'server-status': `A real-time ${createLink(urls.statusPage, 'server status page')}?! Neat! This is the first place I'll check if I notice anything unusual happening with my site!`,
   'sofa-account-load': `I check my ${createLink(urls.accountLoad, 'account load')} every so often, to make sure I don't risk ${createLink(urls.highServerUsage, 'account suspension')}.<p>Sofa, so good! ha ha ha!<p>`,
 
