@@ -9,6 +9,20 @@ body {
   overflow: hidden;
 }
 
+#logo-container {
+  position: absolute;
+  top: calc(2vh);
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: auto;
+}
+
+#logo {
+  max-width: 300px;
+  height: auto;
+}
+
 #app {
   width: 100%;
   height: 100%;
@@ -63,8 +77,8 @@ body {
 
 .note {
   position: absolute;
-  left: 5%;
-  top: 1vh;
+  left: 3%;
+  bottom: 3vh;
   display: flex;
   flex-direction: column;
   color: rgb(238, 238, 238);
@@ -75,8 +89,8 @@ body {
 
 #info-link {
   position: absolute;
-  bottom: 1%;
-  left: 1%;
+  bottom: 2vh;
+  left: 3%;
   font-size: 22px;
   color: white;
   text-decoration: none;
