@@ -25,6 +25,7 @@ export const urls = {
   inactivityPolicy: 'https://wiki.helionet.org/Suspension_Policy#Inactivity_Policy',
   johnny: 'https://wiki.helionet.org/Johnny',
   lily: 'https://wiki.helionet.org/Lily',
+  map: 'https://heliohost.org/map/',
   mainDomain: 'https://wiki.helionet.org/Changing_Your_Main_Domain',
   mariadb: 'https://wiki.helionet.org/MySQL',
   morty: 'https://wiki.helionet.org/Morty',
