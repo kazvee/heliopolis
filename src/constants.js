@@ -32,6 +32,11 @@ export const dialogueData = {
 
   // E
   'email': `Some HelioHost staff are more active in the email support inbox than than elsewhere. Asking the same question by email, in Discord, and on the Helionet forum can waste people's time and delay help for others.<p>It can feel a little annoying reading the same thing over and over again, so ${createLink(urls.whereToAskForHelp, 'wherever you ask for help')}, it's best to ask just once, in a single place!`,
+  'error-502': `Here's more details about what ${createLink(urls.error502, '502 Bad Gateway')} means!`,
+  'error-504': `Did you get a ${createLink(urls.error504, '504 Gateway Timeout')}? I can tell you all about that!`,
+  'error-logs': `If an error on my site <em>leaves</em> me <em>stumped</em>, I always check what the ${createLink(urls.errorLogs, 'error logs')} say! They often give me helpful details I can share on the ${createLink(urls.customerSupport, 'Customer Support forum')} if I need some extra help!`,
+  'error-remote-postgresql': `Issues with ${createLink(urls.remotePostgreSQL, 'Remote Access to PostgreSQL')}, hmm? We have a solution for that!`,
+  'error-ssl': `You've come to the right place for ${createLink(urls.sslCertificates, 'SSL Certificate Guidance')}!`,
 
   // F
   'fireplace': `< fireplace noises >`,
@@ -65,7 +70,6 @@ export const dialogueData = {
   'ledge-vase': `What is this? A clay pot? A vase? Why would anyone leave this here?<p>Did I seriously walk <em>all the way over here</em> just to find an empty vase?!`,
   'lily': `This is the ${createLink(urls.lily, 'Lily')} server! She's pretty special because she runs Windows Server!`,
   'locked': `Is this drawer locked or just really stuck?!<p>Hmm...`,
-  'logs': `If an error on my site <em>leaves</em> me <em>stumped</em>, I can check the ${createLink(urls.errorLogs, 'Error Logs')} in Plesk to get to the <em>root</em> of the problem.<p>If I still can't get things working <em>pine</em>, I'll <em>log</em> in to the ${createLink(urls.customerSupport, 'Customer Support')} forum, where I'm sure people <em>wood</em> be happy to help me!<p>< puns included at no cost >`,
 
   // M
   'maze': `<div style="transform: rotate(180deg); display: inline-block;">... This place is a-maze-ing! All that turning around made me a little dizzy, though...</div>`,
@@ -80,7 +84,7 @@ export const dialogueData = {
   'plesk': `I'm going to ${createLink(urls.backupYourAccount, 'backup my account')} right now and download a copy to my local computer!<p>I worked so hard on my site, I should definitely save a copy of it somewhere safe, just in case!`,
   'post': `"HEY YOU! I hope your sock twists up inside your shoe and feels really uncomfortable! ha ha ha! NOW GO AWAY."<p>...<p>Well, that's a rude post causing a fence. The ${createLink(urls.helioNet, 'HelioNet Forum')} is a lot friendlier, with very clear ${createLink(urls.helioNetTerms, 'rules')} for all posts!`,
   'potion-storage': `Whoever left all this stuff on the floor clearly needs a better storage solution.<p>If I ever need more than the ${createLink(urls.storage, '1000 MB')} of disk space that comes with my HelioHost account, I can make a ${createLink(urls.donationsForStorage, 'one-time donation')} to add more storage. I need extra room for all my memes...`,
-  'python': `What's your favorite programming language?<p>Yesssss, mine, too!<p>I use HelioHost's ${createLink(urls.morty, 'scaling hosting')}!`,
+  'python': `What's your favorite programming language?<p>YESSSsssssss! Mine, too!<p>I use HelioHost's ${createLink(urls.morty, 'scaling hosting')}!`,
 
   // Q
 
@@ -89,6 +93,7 @@ export const dialogueData = {
   'rules': `Like most places, HelioHost has some ${createLink(urls.terms, 'rules')} everyone needs to follow. Here's a big 1!<p>What does the big 1 have to do with the rules? Well, everyone is only allowed <strong>one</strong> account on HelioHost. 1. One. <strong>ONE</strong>. People who make more than one account will be ${createLink(urls.duplicateAccounts, 'suspended')}.<p>This rule helps HelioHost provide free accounts to as many people as possible.`,
 
   // S
+  'school': `HelioHost is incredibly popular with students, small businesses, and anyone else who needs a free or low-cost website!<p>They have a ${createLink(urls.mortySignup, 'guidance page')} if you're not sure which server to sign up for. And with self-service account moves, you're not locked in to one server forever!`,
   'selfie-spot': `** FREE SELFIE SPOT ****<p>Snap a selfie in the spot of your choice! Share your photos inside a ${createLink(urls.softaculous, 'Softaculous')} forum, CMS, or blog!`,
   'server-restart': `Apache restarts every 2 hours on shared hosting, so my site might briefly show a ${createLink(urls.error502, '502')} or ${createLink(urls.error504, '504')} error.<p>I check the ${createLink(urls.statusPage, 'HelioHost Services Status Page')} to see what's happening.<p>With a ${createLink(urls.vps, 'VPS')}, my server could run for weeks or months, but I'd probably restart it anyway so it can have a little power nap as a treat!`,
   'server-status': `A real-time ${createLink(urls.statusPage, 'server status page')}?! Neat! This is the first place I'll check if I notice anything unusual happening with my site!`,
