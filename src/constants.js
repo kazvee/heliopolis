@@ -8,9 +8,10 @@ function createLink(url, text) {
 export const dialogueData = {
 
   // A
-  'alien': `Blip blorp BLEEP!<p>HelioHost offers community powered free hosting for everyone, so we flew over to check it out!<p>You'll need to add more timespace dimensions to get us on your <a href="${urls.map}" target="_blank">${createLink(urls.map, 'user map')}</a>! Haha!<p><em>Watch the skies</em>, Earth-creature!`,
+  'alien': `Blip blorp BLEEP!<p>HelioHost offers community powered free hosting for everyone, so we flew over to check it out!<p>They will need to add more timespace dimensions to add us to the ${createLink(urls.map, 'user map')}</a>! Haha!<p><em>Watch the skies</em>, Earth-creature!`,
 
   // B
+  'bank': `HelioHost provides community-powered free hosting for everyone. Thanks to the amazing generosity of their donors, they've been offering free hosting for over 20 years!<p>If you'd like to help them keep providing free hosting, you can ${createLink(urls.whereToAskForHelp, 'make a donation')} using a variety of payment methods!`,
   'bed': `All HelioHost staff are  ${createLink(urls.eta, 'volunteers')}, and sometimes they need to sleep. It's a good idea to be patient when asking for help.<p>Other users can help you out too! That's the great thing about a community powered support system!<p>${createLink(urls.whereToAskForHelp, 'Wherever you ask for help')}, it's best to ask just once, in a single place.`,
   'binary-tree': `01110100 01110010 01100101 01100101<p>Hmm...<p>I wonder what that means...`,
   'bookcase': `HelioHost's ${createLink(urls.tutorials, 'tutorial')} section is like a big bookcase full of information! I can build all kinds of things with the help of their how-to guides!`,
@@ -95,7 +96,7 @@ export const dialogueData = {
   // S
   'school': `HelioHost is incredibly popular with students, small businesses, and anyone else who needs a free or low-cost website!<p>They have a ${createLink(urls.mortySignup, 'guidance page')} if you're not sure which server to sign up for. And with self-service account moves, you're not locked in to one server forever!`,
   'selfie-spot': `** FREE SELFIE SPOT ****<p>Snap a selfie in the spot of your choice! Share your photos inside a ${createLink(urls.softaculous, 'Softaculous')} forum, CMS, or blog!`,
-  'server-restart': `Apache restarts every 2 hours on shared hosting, so my site might briefly show a ${createLink(urls.error502, '502')} or ${createLink(urls.error504, '504')} error.<p>I check the ${createLink(urls.statusPage, 'HelioHost Services Status Page')} to see what's happening.<p>With a ${createLink(urls.vps, 'VPS')}, my server could run for weeks or months, but I'd probably restart it anyway so it can have a little power nap as a treat!`,
+  'server-restart': `Apache restarts every 2 hours on the shared hosting servers, so my site might briefly show a ${createLink(urls.error502, '502')} or ${createLink(urls.error504, '504')} error while it reboots.<p>I can check the ${createLink(urls.statusPage, 'HelioHost Services Status Page')} to see if the server is restarting.<p>I could get a ${createLink(urls.vps, 'VPS')} and let it run for weeks or months without a restart, who doesn't love a little power nap as a treat every now and then?!`,
   'server-status': `A real-time ${createLink(urls.statusPage, 'server status page')}?! Neat! This is the first place I'll check if I notice anything unusual happening with my site!`,
   'sofa-account-load': `I check my ${createLink(urls.accountLoad, 'account load')} every so often, to make sure I don't risk ${createLink(urls.highServerUsage, 'account suspension')}.<p>Sofa, so good! ha ha ha!<p>`,
 
@@ -117,6 +118,7 @@ export const dialogueData = {
 
   // W
   'welcome': `Welcome to Heliopolis! This is a place where you can learn more about ${createLink(urls.helioHost, 'HelioHost')} and their mission to provide full-featured web hosting services for free.<p>Have fun exploring and interacting with your surroundings: Read signs, hug trees, and talk to the wildlife!<p>Running is strictly forbidden.`,
+  'whale': `HelioHost offers a range of ${createLink(urls.vps, 'VPS plans')} if you'd like to run your projects in Docker!<p>If you pay for 6 months upfront, you get a <strong>10% discount</strong>! That's a whale of a deal!`,
 
   // X
 
