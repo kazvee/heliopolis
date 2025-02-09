@@ -8,9 +8,10 @@ function createLink(url, text) {
 export const dialogueData = {
 
   // A
+  'alien': `Blip blorp BLEEP!<p>HelioHost offers community powered free hosting for everyone, so we flew over to check it out!<p>You'll need to add more timespace dimensions to get us on your <a href="${urls.map}" target="_blank">${createLink(urls.map, 'user map')}</a>! Haha!<p><em>Watch the skies</em>, Earth-creature!`,
 
   // B
-  'bed': `All HelioHost staff are  ${createLink(urls.eta, 'volunteers')}, and sometimes they need to sleep. It's a good idea to be patient when asking for help.<p>Other users can help you out too! That's the great thing about a community-driven support system!<p>${createLink(urls.whereToAskForHelp, 'Wherever you ask for help')}, it's best to ask just once, in a single place.`,
+  'bed': `All HelioHost staff are  ${createLink(urls.eta, 'volunteers')}, and sometimes they need to sleep. It's a good idea to be patient when asking for help.<p>Other users can help you out too! That's the great thing about a community powered support system!<p>${createLink(urls.whereToAskForHelp, 'Wherever you ask for help')}, it's best to ask just once, in a single place.`,
   'binary-tree': `01110100 01110010 01100101 01100101<p>Hmm...<p>I wonder what that means...`,
   'bookcase': `HelioHost's ${createLink(urls.tutorials, 'tutorial')} section is like a big bookcase full of information! I can build all kinds of things with the help of their how-to guides!`,
   'bunny': `I've just installed a CMS with ${createLink(urls.softaculous, 'Softaculous')}!<p>You know... a Carrot Management System!`,
@@ -79,7 +80,7 @@ export const dialogueData = {
   'plesk': `I'm going to ${createLink(urls.backupYourAccount, 'backup my account')} right now and download a copy to my local computer!<p>I worked so hard on my site, I should definitely save a copy of it somewhere safe, just in case!`,
   'post': `"HEY YOU! I hope your sock twists up inside your shoe and feels really uncomfortable! ha ha ha! NOW GO AWAY."<p>...<p>Well, that's a rude post causing a fence. The ${createLink(urls.helioNet, 'HelioNet Forum')} is a lot friendlier, with very clear ${createLink(urls.helioNetTerms, 'rules')} for all posts!`,
   'potion-storage': `Whoever left all this stuff on the floor clearly needs a better storage solution.<p>If I ever need more than the ${createLink(urls.storage, '1000 MB')} of disk space that comes with my HelioHost account, I can make a ${createLink(urls.donationsForStorage, 'one-time donation')} to add more storage. I need extra room for all my memes...`,
-  'python': `What's <em>your</em> favorite programming language?<p>Mine, too!<p>I use HelioHost's ${createLink(urls.morty, 'scaling hosting')}!`,
+  'python': `What's your favorite programming language?<p>Yesssss, mine, too!<p>I use HelioHost's ${createLink(urls.morty, 'scaling hosting')}!`,
 
   // Q
 
