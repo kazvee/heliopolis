@@ -33,6 +33,7 @@ export const urls = {
   mortySignup: 'https://heliohost.org/morty/',
   namecheap: 'https://heliohost.org/partners/namecheap',
   news: 'https://helionet.org/index/forum/1-news/',
+  plesk: 'https://wiki.helionet.org/Plesk',
   postgresql: 'https://wiki.helionet.org/PostgreSQL',
   remotePostgreSQL: 'https://wiki.helionet.org/PostgreSQL_Database_Remote_Connection_Error',
   softaculous: 'https://wiki.helionet.org/Softaculous',
