@@ -12,7 +12,7 @@ export const dialogueData = {
 
   // B
   'bank': `HelioHost provides community-powered free hosting for everyone. Thanks to the amazing generosity of their donors, they've been offering free hosting for over 20 years!<p>If you'd like to help them keep providing free hosting, you can ${createLink(urls.whereToAskForHelp, 'make a donation')} using a variety of payment methods!`,
-  'bed': `All HelioHost staff are  ${createLink(urls.eta, 'volunteers')}, and sometimes they need to sleep. It's a good idea to be patient when asking for help.<p>Other users can help you out too! That's the great thing about a community powered support system!<p>${createLink(urls.whereToAskForHelp, 'Wherever you ask for help')}, it's best to ask just once, in a single place.`,
+  'bed': `All HelioHost staff are  ${createLink(urls.eta, 'volunteers')}, and sometimes they need to sleep. It's a good idea to be patient when ${createLink(urls.whereToAskForHelp, 'asking for help')}.<p>Other users can help you out too! That's the great thing about a community powered support system!`,
   'binary-tree': `01110100 01110010 01100101 01100101<p>Hmm...<p>I wonder what that means...`,
   'bookcase': `HelioHost's ${createLink(urls.tutorials, 'tutorial')} section is like a big bookcase full of information! I can build all kinds of things with the help of their how-to guides!`,
   'bunny': `I've just installed a CMS with ${createLink(urls.softaculous, 'Softaculous')}!<p>You know... a Carrot Management System!`,
@@ -25,6 +25,7 @@ export const dialogueData = {
   'clock': `Changes to Node.js apps, PHP pages, domain management, and other stuff might need up to 2 hours to fully work, because they need an Apache server restart to take effect. I read that in the ${createLink(urls.wiki, 'HelioHost Wiki')}! `,
   'common-errors': `Whoa, that's a big error! Did you know that HelioHost has a big help section for ${createLink(urls.commonErrors, 'Common Errors')}? You can get loads of troubleshooting steps there!`,
   'cpu': `HelioHost accounts have a limit of ${createLink(urls.accountLoadLimits, 'no more than 10,000 CPU')} usage per day.<p>If that's not enough, they also have ${createLink(urls.morty, 'scaling hosting')}! For people who need even more CPUs, they offer a range of ${createLink(urls.vps, 'VPS plans')}, with a 10% discount when paying for 6 months upfront.`,
+  'crystal-ball': `If you need to ${createLink(urls.whereToAskForHelp, 'ask for support')}, make sure to include some basic details so it's easier for others try to help you out.<p>It's a good idea to provide your username, domain, details of the problem, and any ${createLink(urls.errorLogs, 'error log messages')}.`,
 
   // D
   'discord': `Some HelioHost staff are more active on ${createLink(urls.discord, 'Discord')} than elsewhere. Asking the same question in Discord, on the Helionet forum, and by email can waste people's time and delay help for others.<p>It can feel a little annoying reading the same thing over and over again, so ${createLink(urls.whereToAskForHelp, 'wherever you ask for help')}, it's best to ask just once, in a single place!`,
@@ -53,7 +54,7 @@ export const dialogueData = {
 
   // H
   'helionet': `Some HelioHost staff are more active on the ${createLink(urls.customerSupport, 'HelioNet Forum')} than elsewhere. Asking the same question on the forum, in Discord, and by email can waste people's time and delay help for others.<p>It can feel a little annoying reading the same thing over and over again, so ${createLink(urls.whereToAskForHelp, 'wherever you ask for help')}, it's best to ask just once, in a single place!`,
-  'hello-world': `'HELLO WORLD', the classic starting point for every new creation!<p>HelioHost offers a ${createLink(urls.createWebsite, 'quick guide')} for getting a basic website set up inside Plesk, and a bunch of other ${createLink(urls.tutorials, 'tutorials')} for programming languages!`,
+  'hello-world': `"HELLO WORLD", the classic starting point for every new creation!<p>HelioHost offers a ${createLink(urls.createWebsite, 'quick guide')} for getting a basic website set up inside ${createLink(urls.plesk, 'Plesk')}, and a bunch of other ${createLink(urls.tutorials, 'tutorials')} for programming languages!`,
   'horse': `What's this sign for?<p>***** NOTICE: Have you found my horse? Last seen moving 2 squares forward and 1 square right! *****<p>Hmm, I'll keep an eye out for sure. <em>Hay</em>, speaking of <em>stable</em> solutions, the flagship ${createLink(urls.morty, 'Morty')} server offers great uptime, reliability, and speed. No <em>horsing</em> around!`,
 
   // I
@@ -94,7 +95,7 @@ export const dialogueData = {
   'rules': `Like most places, HelioHost has some ${createLink(urls.terms, 'rules')} everyone needs to follow. Here's a big 1!<p>What does the big 1 have to do with the rules? Well, everyone is only allowed <strong>one</strong> account on HelioHost. 1. One. <strong>ONE</strong>. People who make more than one account will be ${createLink(urls.duplicateAccounts, 'suspended')}.<p>This rule helps HelioHost provide free accounts to as many people as possible.`,
 
   // S
-  'school': `HelioHost is incredibly popular with students, small businesses, and anyone else who needs a free or low-cost website!<p>They have a ${createLink(urls.mortySignup, 'guidance page')} if you're not sure which server to sign up for. And with self-service account moves, you're not locked in to one server forever!`,
+  'school': `HelioHost is incredibly popular with students, small businesses, and anyone else who needs free or low-cost hosting, or an affordable ${createLink(urls.vps, 'VPS')}!<p>They have a ${createLink(urls.beforeSignup, 'guidance page')} if you're not sure which hosting plan is right for you. With self-service account moves, you can switch servers anytime. It's a great way to scale up your site as you grow!`,
   'selfie-spot': `** FREE SELFIE SPOT ****<p>Snap a selfie in the spot of your choice! Share your photos inside a ${createLink(urls.softaculous, 'Softaculous')} forum, CMS, or blog!`,
   'server-restart': `Apache restarts every 2 hours on the shared hosting servers, so my site might briefly show a ${createLink(urls.error502, '502')} or ${createLink(urls.error504, '504')} error while it reboots.<p>I can check the ${createLink(urls.statusPage, 'HelioHost Services Status Page')} to see if the server is restarting.<p>I could get a ${createLink(urls.vps, 'VPS')} and let it run for weeks or months without a restart, who doesn't love a little power nap as a treat every now and then?!`,
   'server-status': `A real-time ${createLink(urls.statusPage, 'server status page')}?! Neat! This is the first place I'll check if I notice anything unusual happening with my site!`,
@@ -108,10 +109,11 @@ export const dialogueData = {
   'tower-left': `I wonder what's in there...`,
   'tower-right': `< weird noises ><p>Umm... I better leave this alone.`,
   'treasure-chest': `I wonder what's in here...`,
-  'treasure-rug': `A treasure chest? And it's open?! There's a note inside! Maybe it's a map? A list of magic spells?! I'm going to read it! It says...<p>Hmm... It says... 'Please do not walk on the rug.'<p>Grr! This note could have been an email! Speaking of email, HelioHost has a great ${createLink(urls.emailDeliveryIssues, 'troubleshooting help page')} for any mail delivery issues you might have.`,
+  'treasure-rug': `A treasure chest? And it's open?! There's a note inside! Maybe it's a map? A list of magic spells?! I'm going to read it! It says...<p>Hmm... It says... "Please do not walk on the rug."<p>Grr! This note could have been an email! Speaking of email, HelioHost has a great ${createLink(urls.emailDeliveryIssues, 'troubleshooting help page')} for any mail delivery issues you might have.`,
   'twenty-years': `${createLink(urls.helioHost, 'HelioHost')} has been offering free web hosting services to the community for over 20 years!<p>You can ${createLink(urls.donate, 'make a donation')} to help support their efforts, or check out some ${createLink(urls.howYouCanHelp, 'other ways')} you can help.`,  
 
   // U
+  'unlimited-email-accounts': `HelioHost offers ${createLink(urls.unlimitedEmailAccounts, 'unlimited email accounts')}, isn't that amazing?!<p>They also have a great ${createLink(urls.emailDeliveryIssues, 'help page')} for any email delivery issues you might have!`,
 
   // V
   'vps': `These are the ${createLink(urls.vps, 'VPS')} servers! Wanna know a secret?<p>If you pay for 6 months upfront, you get a <strong>10% discount</strong>!<p>Well... It's not really a secret, since the discount is shown right on the page when you choose a VPS plan. It's a great deal, though!`,
