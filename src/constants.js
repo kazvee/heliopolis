@@ -95,7 +95,7 @@ export const dialogueData = {
   'rules': `Like most places, HelioHost has some ${createLink(urls.terms, 'rules')} everyone needs to follow. Here's a big 1!<p>What does the big 1 have to do with the rules? Well, everyone is only allowed <strong>one</strong> account on HelioHost. 1. One. <strong>ONE</strong>. People who make more than one account will be ${createLink(urls.duplicateAccounts, 'suspended')}.<p>This rule helps HelioHost provide free accounts to as many people as possible.`,
 
   // S
-  'school': `HelioHost is incredibly popular with students, small businesses, and anyone else who needs a free or low-cost website!<p>They have a ${createLink(urls.mortySignup, 'guidance page')} if you're not sure which server to sign up for. And with self-service account moves, you're not locked in to one server forever!`,
+  'school': `HelioHost is incredibly popular with students, small businesses, and anyone else who needs free or low-cost hosting, or an affordable ${createLink(urls.vps, 'VPS')}!<p>They have a ${createLink(urls.beforeSignup, 'guidance page')} if you're not sure which hosting plan is right for you. With self-service account moves, you can switch servers anytime. It's a great way to scale up your site as you grow!`,
   'selfie-spot': `** FREE SELFIE SPOT ****<p>Snap a selfie in the spot of your choice! Share your photos inside a ${createLink(urls.softaculous, 'Softaculous')} forum, CMS, or blog!`,
   'server-restart': `Apache restarts every 2 hours on the shared hosting servers, so my site might briefly show a ${createLink(urls.error502, '502')} or ${createLink(urls.error504, '504')} error while it reboots.<p>I can check the ${createLink(urls.statusPage, 'HelioHost Services Status Page')} to see if the server is restarting.<p>I could get a ${createLink(urls.vps, 'VPS')} and let it run for weeks or months without a restart, who doesn't love a little power nap as a treat every now and then?!`,
   'server-status': `A real-time ${createLink(urls.statusPage, 'server status page')}?! Neat! This is the first place I'll check if I notice anything unusual happening with my site!`,
@@ -113,6 +113,7 @@ export const dialogueData = {
   'twenty-years': `${createLink(urls.helioHost, 'HelioHost')} has been offering free web hosting services to the community for over 20 years!<p>You can ${createLink(urls.donate, 'make a donation')} to help support their efforts, or check out some ${createLink(urls.howYouCanHelp, 'other ways')} you can help.`,  
 
   // U
+  'unlimited-email-accounts': `HelioHost offers ${createLink(urls.unlimitedEmailAccounts, 'unlimited email accounts')}, isn't that amazing?!<p>They also have a great ${createLink(urls.emailDeliveryIssues, 'help page')} for any email delivery issues you might have!`,
 
   // V
   'vps': `These are the ${createLink(urls.vps, 'VPS')} servers! Wanna know a secret?<p>If you pay for 6 months upfront, you get a <strong>10% discount</strong>!<p>Well... It's not really a secret, since the discount is shown right on the page when you choose a VPS plan. It's a great deal, though!`,
