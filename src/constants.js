@@ -12,7 +12,7 @@ export const dialogueData = {
 
   // B
   'bank': `HelioHost provides community-powered free hosting for everyone. Thanks to the amazing generosity of their donors, they've been offering free hosting for over 20 years!<p>If you'd like to help them keep providing free hosting, you can ${createLink(urls.whereToAskForHelp, 'make a donation')} using a variety of payment methods!`,
-  'bed': `All HelioHost staff are  ${createLink(urls.eta, 'volunteers')}, and sometimes they need to sleep. It's a good idea to be patient when asking for help.<p>Other users can help you out too! That's the great thing about a community powered support system!<p>${createLink(urls.whereToAskForHelp, 'Wherever you ask for help')}, it's best to ask just once, in a single place.`,
+  'bed': `All HelioHost staff are  ${createLink(urls.eta, 'volunteers')}, and sometimes they need to sleep. It's a good idea to be patient when ${createLink(urls.whereToAskForHelp, 'asking for help')}.<p>Other users can help you out too! That's the great thing about a community powered support system!`,
   'binary-tree': `01110100 01110010 01100101 01100101<p>Hmm...<p>I wonder what that means...`,
   'bookcase': `HelioHost's ${createLink(urls.tutorials, 'tutorial')} section is like a big bookcase full of information! I can build all kinds of things with the help of their how-to guides!`,
   'bunny': `I've just installed a CMS with ${createLink(urls.softaculous, 'Softaculous')}!<p>You know... a Carrot Management System!`,
@@ -54,7 +54,7 @@ export const dialogueData = {
 
   // H
   'helionet': `Some HelioHost staff are more active on the ${createLink(urls.customerSupport, 'HelioNet Forum')} than elsewhere. Asking the same question on the forum, in Discord, and by email can waste people's time and delay help for others.<p>It can feel a little annoying reading the same thing over and over again, so ${createLink(urls.whereToAskForHelp, 'wherever you ask for help')}, it's best to ask just once, in a single place!`,
-  'hello-world': `'HELLO WORLD', the classic starting point for every new creation!<p>HelioHost offers a ${createLink(urls.createWebsite, 'quick guide')} for getting a basic website set up inside Plesk, and a bunch of other ${createLink(urls.tutorials, 'tutorials')} for programming languages!`,
+  'hello-world': `"HELLO WORLD", the classic starting point for every new creation!<p>HelioHost offers a ${createLink(urls.createWebsite, 'quick guide')} for getting a basic website set up inside ${createLink(urls.plesk, 'Plesk')}, and a bunch of other ${createLink(urls.tutorials, 'tutorials')} for programming languages!`,
   'horse': `What's this sign for?<p>***** NOTICE: Have you found my horse? Last seen moving 2 squares forward and 1 square right! *****<p>Hmm, I'll keep an eye out for sure. <em>Hay</em>, speaking of <em>stable</em> solutions, the flagship ${createLink(urls.morty, 'Morty')} server offers great uptime, reliability, and speed. No <em>horsing</em> around!`,
 
   // I
@@ -109,7 +109,7 @@ export const dialogueData = {
   'tower-left': `I wonder what's in there...`,
   'tower-right': `< weird noises ><p>Umm... I better leave this alone.`,
   'treasure-chest': `I wonder what's in here...`,
-  'treasure-rug': `A treasure chest? And it's open?! There's a note inside! Maybe it's a map? A list of magic spells?! I'm going to read it! It says...<p>Hmm... It says... 'Please do not walk on the rug.'<p>Grr! This note could have been an email! Speaking of email, HelioHost has a great ${createLink(urls.emailDeliveryIssues, 'troubleshooting help page')} for any mail delivery issues you might have.`,
+  'treasure-rug': `A treasure chest? And it's open?! There's a note inside! Maybe it's a map? A list of magic spells?! I'm going to read it! It says...<p>Hmm... It says... "Please do not walk on the rug."<p>Grr! This note could have been an email! Speaking of email, HelioHost has a great ${createLink(urls.emailDeliveryIssues, 'troubleshooting help page')} for any mail delivery issues you might have.`,
   'twenty-years': `${createLink(urls.helioHost, 'HelioHost')} has been offering free web hosting services to the community for over 20 years!<p>You can ${createLink(urls.donate, 'make a donation')} to help support their efforts, or check out some ${createLink(urls.howYouCanHelp, 'other ways')} you can help.`,  
 
   // U
