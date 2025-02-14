@@ -1,16 +1,24 @@
 # Heliopolis ☀️
 
-✨ [LIVE DEMO](https://heliopolis.helioho.st/) ✨  
+✨ [LIVE DEMO](https://heliopolis.helioho.st/) ✨
 
 Heliopolis is a fan-created platform where you can learn more about [HelioHost](https://heliohost.org/) and their mission to provide full-featured web hosting services for free.
 
-This project is not affiliated with or endorsed by any official entities and is designed as an informational resource only.  
+This project is not affiliated with or endorsed by any official entities and is designed as an informational resource only.
 
-Any characters, likenesses, or entities depicted in this project are entirely fictional and not intended to represent real people or real talking animals. 🐰  
+Any characters, likenesses, or entities depicted in this project are entirely fictional and not intended to represent real people or real talking animals. 🐰
 
 The portrayal of technology and network security is purely for entertainment and should not be taken as an accurate representation of real-world practices. 😄
 
-## How to Play
+## Demo Video 📺
+
+https://github.com/user-attachments/assets/1b570ae4-632b-4dd7-80a1-2072206760e3
+
+## Screenshot 🖼️
+
+![](public/readme/Heliopolis_Screenshot.png)
+
+## How to Play 🎮
 
 * Help your character explore by clicking (desktop) or tapping (mobile)
 * Approach or touch objects and characters to interact
