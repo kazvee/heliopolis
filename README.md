@@ -10,6 +10,10 @@ Any characters, likenesses, or entities depicted in this project are entirely fi
 
 The portrayal of technology and network security is purely for entertainment and should not be taken as an accurate representation of real-world practices. 😄
 
+## Demo Video
+
+https://github.com/user-attachments/assets/1b570ae4-632b-4dd7-80a1-2072206760e3
+
 ## How to Play
 
 * Help your character explore by clicking (desktop) or tapping (mobile)
