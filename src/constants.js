@@ -75,7 +75,7 @@ export const dialogueData = {
 
   // M
   'maze': `<div style="transform: rotate(180deg); display: inline-block;">... This place is a-maze-ing! All that turning around made me a little dizzy, though...</div>`,
-  'memory': `HelioHost accounts have a memory limit of ${createLink(urls.accountLoadLimits, 'no more than 100 GB')} per day.<p>If that's not enough, they also have ${createLink(urls.morty, 'scaling hosting')}! For people who need even more memory, they offer a range of ${createLink(urls.vps, 'VPS plans')}, with a 10% discount when paying for 6 months upfront.`,
+  'memory': `HelioHost accounts have a memory limit of ${createLink(urls.accountLoadLimits, 'no more than 200 GB')} per day.<p>If that's not enough, they also have ${createLink(urls.morty, 'scaling hosting')}! For people who need even more memory, they offer a range of ${createLink(urls.vps, 'VPS plans')}, with a 10% discount when paying for 6 months upfront.`,
   'morty': `This is the ${createLink(urls.morty, 'Morty')} server! He's HelioHost's flagship server, offering ${createLink(urls.mortySignup, 'unlimited memory and CPU usage')}! Morty is fast. Like... super fast.<p>How fast can you blink? Yeah, he's much faster than that.`,
 
   // N
