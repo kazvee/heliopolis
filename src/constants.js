@@ -75,7 +75,7 @@ export const dialogueData = {
 
   // M
   'maze': `<div style="transform: rotate(180deg); display: inline-block;">... This place is a-maze-ing! All that turning around made me a little dizzy, though...</div>`,
-  'memory': `HelioHost accounts have a memory limit of ${createLink(urls.accountLoadLimits, 'no more than 100 GB')} per day.<p>If that's not enough, they also have ${createLink(urls.morty, 'scaling hosting')}! For people who need even more memory, they offer a range of ${createLink(urls.vps, 'VPS plans')}, with a 10% discount when paying for 6 months upfront.`,
+  'memory': `HelioHost accounts have a memory limit of ${createLink(urls.accountLoadLimits, 'no more than 200 GB')} per day.<p>If that's not enough, they also have ${createLink(urls.morty, 'scaling hosting')}! For people who need even more memory, they offer a range of ${createLink(urls.vps, 'VPS plans')}, with a 10% discount when paying for 6 months upfront.`,
   'morty': `This is the ${createLink(urls.morty, 'Morty')} server! He's HelioHost's flagship server, offering ${createLink(urls.mortySignup, 'unlimited memory and CPU usage')}! Morty is fast. Like... super fast.<p>How fast can you blink? Yeah, he's much faster than that.`,
 
   // N
@@ -92,7 +92,7 @@ export const dialogueData = {
 
   // R
   'red-button': `A big red button in the middle of nowhere? It's <em>definitely</em> a good idea to push this!<p>< click ><p>Ooh, this must be the ${createLink(urls.softaculous, 'Softaculous "one-click" installer')}! I can use this to easily install all kinds of popular software packages!<p>< clicks again >`,
-  'rules': `Like most places, HelioHost has some ${createLink(urls.terms, 'rules')} everyone needs to follow. Here's a big 1!<p>What does the big 1 have to do with the rules? Well, everyone is only allowed <strong>one</strong> account on ${createLink(urls.tommy, 'Tommy')} or ${createLink(urls.johnny, 'Johnny')}. 1. One. <strong>ONE</strong>. Multiple accounts will be ${createLink(urls.duplicateAccounts, 'suspended')}.<p>This rule helps HelioHost provide free accounts to as many people as possible.<p>Need more accounts? Use ${createLink(urls.morty, 'Morty')}!`,
+  'rules': `Like most places, HelioHost has some ${createLink(urls.terms, 'rules')} everyone needs to follow. Here's a big 1!<p>What does the big 1 have to do with the rules? Well, everyone is only allowed <strong>one</strong> account on ${createLink(urls.tommy, 'Tommy')} or ${createLink(urls.johnny, 'Johnny')}. 1. One. <strong>ONE</strong>. Multiple accounts will be ${createLink(urls.duplicateAccounts, 'suspended')}.<p>This rule helps HelioHost provide free accounts to as many people as possible.<p>If you want multple accounts, you need to use ${createLink(urls.morty, 'Morty')}!`,
 
   // S
   'school': `HelioHost is incredibly popular with students, small businesses, and anyone else who needs free or low-cost hosting, or an affordable ${createLink(urls.vps, 'VPS')}!<p>They have a ${createLink(urls.beforeSignup, 'guidance page')} if you're not sure which hosting plan is right for you. With self-service account moves, you can switch servers anytime. It's a great way to scale up your site as you grow!`,
