@@ -12,6 +12,7 @@ export const urls = {
   donate: 'https://heliohost.org/donate/',
   donationsForStorage: 'https://wiki.helionet.org/Donations_for_Increased_Storage',
   duplicateAccounts: 'https://wiki.helionet.org/Suspension_Policy#Duplicate_Accounts',
+  educationAccounts: 'https://wiki.helionet.org/Education_Accounts',
   emailDeliveryIssues: 'https://wiki.helionet.org/Mail_Delivery_Problems',
   error502: 'https://wiki.helionet.org/502_Bad_Gateway',
   error504: 'https://wiki.helionet.org/504_Gateway_Timeout',
