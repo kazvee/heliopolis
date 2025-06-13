@@ -21,7 +21,7 @@ export const dialogueData = {
   // C
   'campfire': `A campfire? I wish I'd brought some marshmallows...`,
   'castle-door': `Anybody home?`,
-  'chest-coins': `I wonder how much money this is... If it adds up to at least $1 USD, I could sign up for an account on the ${createLink(urls.tommySignup, 'Tommy server')} right now! I bet there's enough here...`,
+  'chest-coins': `I wonder how much money this is... If it adds up to at least $2 USD, I could sign up for an account on the ${createLink(urls.tommySignup, 'Tommy server')} right now! I bet there's enough here...`,
   'clock': `Changes to Node.js apps, PHP pages, domain management, and other stuff might need up to 2 hours to fully work, because they need an Apache server restart to take effect. I read that in the ${createLink(urls.wiki, 'HelioHost Wiki')}! `,
   'common-errors': `Whoa, that's a big error! Did you know that HelioHost has a big help section for ${createLink(urls.commonErrors, 'Common Errors')}? You can get loads of troubleshooting steps there!`,
   'cpu': `HelioHost accounts have a limit of ${createLink(urls.accountLoadLimits, 'no more than 10,000 CPU')} usage per day.<p>If that's not enough, they also have ${createLink(urls.morty, 'scaling hosting')}! For people who need even more CPUs, they offer a range of ${createLink(urls.vps, 'VPS plans')}, with a 10% discount when paying for 6 months upfront.`,
@@ -105,7 +105,7 @@ export const dialogueData = {
   'table-database': `Is this mahogany?! I love tables! At HelioHost, we can create ${createLink(urls.postgresql, 'PostgreSQL')}, ${createLink(urls.mariadb, 'MySQL / MariaDB')}, and ${createLink(urls.sqlite, 'SQLite')} databases.<p>Did you know that 'SQL' is actually pronounced 'SQL', not 'SQL'?! So many people say it wrong!`,
   'table-terms': `These are HelioHost's ${createLink(urls.terms, 'Terms of Service')}! I better check this out to make sure I don't break any rules and get my ${createLink(urls.suspensionPolicy, 'account suspended')}.`,
   'table-wiki': `HelioHost has a ${createLink(urls.wiki, 'Wiki')}, too?! Awesome!<p>I bet other folks have asked the same questions I have. I guess I'll find my answers in the ${createLink(urls.faq, 'FAQ')} section!<p>First up: figuring out what 'FAQ' even means...<p>Then I'll build something cool with the help of their ${createLink(urls.tutorials, 'tutorials')}!`,
-  'tommy': `This is the ${createLink(urls.tommy, 'Tommy')} server! He's fast, reliable, and available only to donors. For as little as $1 USD, you can ${createLink(urls.tommySignup, 'get an account')} on Tommy any time of day!`,
+  'tommy': `This is the ${createLink(urls.tommy, 'Tommy')} server! He's fast, reliable, and available only to donors. For as little as $2 USD, you can ${createLink(urls.tommySignup, 'get an account')} on Tommy any time of day!`,
   'tower-left': `I wonder what's in there...`,
   'tower-right': `< weird noises ><p>Umm... I better leave this alone.`,
   'treasure-chest': `I wonder what's in here...`,
