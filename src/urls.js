@@ -26,6 +26,7 @@ export const urls = {
   howYouCanHelp: 'https://wiki.helionet.org/How_You_Can_Help',
   inactivityPolicy: 'https://wiki.helionet.org/Suspension_Policy#Inactivity_Policy',
   johnny: 'https://wiki.helionet.org/Johnny',
+  johnnySignup: 'https://heliohost.org/signup/',
   lily: 'https://wiki.helionet.org/Lily',
   mainDomain: 'https://wiki.helionet.org/Changing_Your_Main_Domain',
   map: 'https://heliohost.org/map/',
