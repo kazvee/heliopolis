@@ -45,13 +45,16 @@ https://github.com/user-attachments/assets/1b570ae4-632b-4dd7-80a1-2072206760e3
 * From the project root in your terminal, install dependencies using the `npm i` (or `npm install`) command
 
 ### Start the Development Server
+
 * Run `npm run dev`
 * The development app will be served at [http://localhost:5173](http://localhost:5173/)
 
 ### Build the Production-Ready Application
+
 * Run `npm run build`
 * Static pages ready for deployment will be generated inside the `dist` folder
 
 #### Start the Production Server
+
 * Run `npx serve@latest dist`
 * The production app will be served at [http://localhost:3000](http://localhost:3000/)

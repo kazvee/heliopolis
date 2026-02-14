@@ -29,7 +29,7 @@ export const dialogueData = {
 
   // D
   'discord': `Some HelioHost staff are more active on ${createLink(urls.discord, 'Discord')} than elsewhere. Asking the same question in Discord, on the Helionet forum, and by email can waste people's time and delay help for others.<p>It can feel a little annoying reading the same thing over and over again, so ${createLink(urls.whereToAskForHelp, 'wherever you ask for help')}, it's best to ask just once, in a single place!`,
-  'domain-limit': `We can host up to ${createLink(urls.addonDomains, '10 domains')} on one account! I use my ${createLink(urls.mainDomain, 'main domain')} for my website and requested a ${createLink(urls.subdomain, 'subdomain')} for my blog.<p>When I think of a cool custom domain name, I'll register it with ${createLink(urls.namecheap, 'Namecheap')} since HelioHost has an ${createLink(urls.affiliate, 'affiliate')} agreement with them. HelioHost will get a small commission when I use the referral link, and that's a great way I can help support them!`,
+  'domain-limit': `We can host up to <strong>15</strong> domains on ${createLink(urls.mortySignup, 'Morty')}, up to 10 domains on ${createLink(urls.tommySignup, 'Tommy')}, and up to 5 domains on ${createLink(urls.johnnySignup, 'Johnny')}! I use my ${createLink(urls.mainDomain, 'main domain')} for my website and requested a ${createLink(urls.subdomain, 'subdomain')} for my blog.<p>When I think of a cool custom domain name, I'll register it with ${createLink(urls.namecheap, 'Namecheap')} since HelioHost has an ${createLink(urls.affiliate, 'affiliate')} agreement with them. HelioHost will get a small commission when I use the referral link, and that's a great way I can help support them!`,
   'door': `I can't fit in there!`,
 
   // E
